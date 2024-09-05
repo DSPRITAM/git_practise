@@ -1,0 +1,18 @@
+# for cmd command..
+
+1. conda create -p venv python==3.9 -y.
+2. conda activate venv/.
+3. pip install Django.
+4. django-admin startproject {project name}.
+5. cd {project name}.
+6. python manage.py runserver.
+
+
+# for bash command..
+
+1. py -m venv .venv
+2. source .venv/Scripts/activate
+3. py -m pip install Django
+4. django-admin startproject {project name}
+5. cd {project name}
+6. py manage.py runserver
